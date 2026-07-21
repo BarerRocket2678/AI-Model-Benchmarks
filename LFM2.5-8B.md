@@ -6,13 +6,6 @@
 ```
 temp = 0.2
 repeat-penalty = 1.05
-device = ROCm0
-no-mmap = true
-ngl = 999
-fa = on
-b = 16384
-ub = 2048
-parallel = 16
 ```
 ### Hardware: 
 Radeon R9700 AI PRO 32GB
