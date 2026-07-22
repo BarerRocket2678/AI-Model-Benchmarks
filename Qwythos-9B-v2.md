@@ -3,7 +3,7 @@
 - Quantization: [Q6_K](https://huggingface.co/empero-ai/Qwythos-9B-v2-GGUF)
 ### llama.cpp Parameters:
 ```
-temp = 0.9
+temp = 0.6
 top-p = 0.95
 ```
 ### Hardware: 
