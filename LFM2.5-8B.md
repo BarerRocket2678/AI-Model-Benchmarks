@@ -21,5 +21,5 @@ Radeon R9700 AI PRO 32GB
 | DataExtract-15 v1.0.0     | 15        | 4    | 6       | 5    | 74    |
 | BugFind-15 v1.0.1         | 15        | 6    | 4       | 5    | 62    |
 | HermesAgent-20 v1.0.0     | 20        | 2    | 1       | 17   | 41    |
-| PromptAuthority-15 v1.0.0 | 40        | 6    | 0       | 9    | 40    |
+| PromptAuthority-15 v1.0.0 | 15        | 6    | 0       | 9    | 40    |
 | CLI-40 v1.0.2             | 40        | 4    | 0       | 36   | 18    |
