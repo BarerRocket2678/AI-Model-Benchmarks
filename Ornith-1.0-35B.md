@@ -6,6 +6,7 @@
 ```
 temp = 0.6
 top-p = 0.95
+repeat-penalty = 1.05
 n = 16384
 ```
 ### Hardware: 
