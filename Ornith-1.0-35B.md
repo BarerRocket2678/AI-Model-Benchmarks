@@ -13,7 +13,6 @@ n = 16384
 Radeon R9700 AI PRO 32GB
 ### BenchLocal settings:
 - Runs: 9x
-- Run mode: Parallel per model
 ---
 ### Results:
 | Test                      | Scenarios | Pass | Partial | Fail | Score |
@@ -27,3 +26,5 @@ Radeon R9700 AI PRO 32GB
 | ReasonMath-15 v1.0.0      | 15        | 12   | 0       | 3    | 73    |
 | PromptAuthority-15 v1.0.0 | 15        | 10   | 0       | 5    | 67    |
 | CLI-40 v1.0.2             | 40        | 18   | 6       | 16   | 66    |
+
+### Agentic-score: 865
