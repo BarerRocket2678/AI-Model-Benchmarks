@@ -11,7 +11,6 @@ n = 16384
 Radeon R9700 AI PRO 32GB
 ### BenchLocal settings:
 - Runs: 9x
-- Run mode: Parallel per model
 ---
 ### Results:
 | Test                      | Scenarios | Pass | Partial | Fail | Score |
@@ -25,3 +24,5 @@ Radeon R9700 AI PRO 32GB
 | HermesAgent-20 v1.0.0     | 20        | 2    | 1       | 17   | 41    |
 | PromptAuthority-15 v1.0.0 | 40        | 6    | 0       | 9    | 40    |
 | CLI-40 v1.0.2             | 40        | 4    | 0       | 36   | 18    |
+
+### Agentic-score: 539
