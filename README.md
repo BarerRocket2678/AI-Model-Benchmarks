@@ -11,6 +11,9 @@ Local open source models have gotten very smart as of recent. However, if the mo
 ### How do you choose the model quantization?
 I have 32GB VRAM, so the mode must fit in that plus the KV cache. I aim to use as good of a quaint as possible, but I decided not to exceed Q6_K for any models since there isn't much point in going higher than that. Expect quaints to mostly be in the Q4_K_M to Q6_K range.
 
+### Why limit the output tokens to 16384?
+I have found that models which generate more than about 8000 tokens tend to either loop forever or generate upwards of 30,000 tokens per task. In order to combat this, I set a generous max token limit and set the model timeout so that it hits the token limit before the timeout limit. In real life scenarios, most would not likely prefer a 4x slowdown for what is probably a small increase in model intelligence.
+
 # Notes and Observations
 - I would recommend setting a max tokens value when benchmarking. Sometimes the model can continue to generate indefinitely after a benchmark finished when using the parallel per model run mode. You can set this value to your tokens generated per second times 300 plus some headroom, since by default BenchLocal has a timeout set at 5 minutes.
 - I would recommend running both CLI-40 and HermesAgent-20 in serial mode since they tend to timeout unless your tokens per second is above around 40.
