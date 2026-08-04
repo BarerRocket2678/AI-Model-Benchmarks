@@ -1,4 +1,4 @@
-#WARNING: Turns out I failed to notice that BenchLocal uses greedy decoding by default. All results should be considered to be void until further notice.
+# WARNING: Turns out I failed to notice that BenchLocal uses greedy decoding by default. All results should be considered to be void until further notice.
 
 # AI-Model-Benchmarks
 Score results of models I can run using BenchLocal, which can be found [here](https://github.com/stevibe/BenchLocal)
