@@ -2,7 +2,7 @@
 Score results of models I can run using BenchLocal, which can be found [here](https://github.com/stevibe/BenchLocal)
 
 # Agentic-score
-This is a score to attempt to determine how well a model can handle agentic tasks. It is the sum of BenchLocal's many agentic benchmarks, where more difficult benchmarks get more weight. The equation for this score is:
+This is a score used to determine how well a model can handle agentic tasks. It is the sum of BenchLocal's many agentic benchmarks, where more difficult benchmarks get more weight. The equation for this score is:
 ``` ToolCall-15 + InstructFollow-15 + DataExtract-15 + StructOutput-15 + 2 * HermesAgent-20 + 2 * PromptAuthority-15 + 3 * CLI-40 ```
 # QnA
 ### Why the focus on Agentic performance?
