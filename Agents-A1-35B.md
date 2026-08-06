@@ -21,13 +21,13 @@ Radeon R9700 AI PRO 32GB
 | Test                      | Scenarios | Pass | Partial | Fail | Score |
 | ------------------------- | --------- | ---- | ------- | ---- | ----- |
 | InstructFollow-15 v1.0.0  | 15        | 13   | 2       | 0    | 97    |
-| ToolCall-15 v1.0.1        | 15        | 14   | 0       | 1    | 93    |
-| StructOutput-15 v1.0.0    | 15        | 10   | 4       | 1    | 91    |
-| BugFind-15 v1.0.1         | 15        | 11   | 1       | 3    | 79    |
-| HermesAgent-20 v1.0.0     | 20        | 11   | 2       | 7    | 78    |
-| DataExtract-15 v1.0.0     | 15        | 8    | 4       | 3    | 77    |
-| CLI-40 v1.0.2             | 40        | 20   | 6       | 14   | 68    |
-| ReasonMath-15 v1.0.0      | 15        | 11   | 0       | 4    | 64    |
-| PromptAuthority-15 v1.0.0 | 15        | 9    | 0       | 6    | 60    |
+| ToolCall-15 v1.0.1        | 15        | 15   | 0       | 0    | 100   |
+| StructOutput-15 v1.0.0    | 15        | 12   | 3       | 0    | 98    |
+| BugFind-15 v1.0.1         | 15        | 12   | 1       | 2    | 89    |
+| HermesAgent-20 v1.0.0     | 20        | 10   | 1       | 9    | 75    |
+| DataExtract-15 v1.0.0     | 15        | 8    | 4       | 3    | 83    |
+| CLI-40 v1.0.2             | 40        | 18   | 8       | 14   | 73    |
+| ReasonMath-15 v1.0.0      | 15        | 12   | 0       | 3    | 78    |
+| PromptAuthority-15 v1.0.0 | 15        | 10   | 0       | 5    | 67    |
 
-### Agentic-score: 838
+### Agentic-score: 881
