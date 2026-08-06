@@ -4,7 +4,10 @@
 - Quantization: [APEX I-Quality](https://huggingface.co/mudler/LFM2.5-8B-A1B-APEX-GGUF)
 ### llama.cpp Parameters:
 ```
+jinja = true
 temp = 0.2
+top-k = 80
+repeat-penalty = 1.05
 n = 16384
 ```
 ### Hardware: 
@@ -15,14 +18,14 @@ Radeon R9700 AI PRO 32GB
 ### Results:
 | Test                      | Scenarios | Pass | Partial | Fail | Score |
 | ------------------------- | --------- | ---- | ------- | ---- | ----- |
-| InstructFollow-15 v1.0.0  | 15        | 11   | 2       | 2    | 88    |
-| ToolCall-15 v1.0.1        | 15        | 1    | 0       | 2    | 87    |
-| DataExtract-15 v1.0.0     | 15        | 4    | 6       | 5    | 74    |
-| StructOutput-15 v1.0.0    | 15        | 3    | 9       | 3    | 74    |
-| BugFind-15 v1.0.1         | 15        | 6    | 4       | 5    | 62    |
-| ReasonMath-15 v1.0.0      | 15        | 8    | 1       | 6    | 51    |
-| HermesAgent-20 v1.0.0     | 20        | 2    | 1       | 17   | 41    |
-| PromptAuthority-15 v1.0.0 | 40        | 6    | 0       | 9    | 40    |
-| CLI-40 v1.0.2             | 40        | 4    | 0       | 36   | 18    |
+| InstructFollow-15 v1.0.0  | 15        | 10   | 3       | 2    | 86    |
+| ToolCall-15 v1.0.1        | 15        | 11   | 2       | 2    | 80    |
+| DataExtract-15 v1.0.0     | 15        | 4    | 8       | 3    | 77    |
+| StructOutput-15 v1.0.0    | 15        | 4    | 7       | 4    | 73    |
+| ReasonMath-15 v1.0.0      | 15        | 10   | 1       | 4    | 67    |
+| BugFind-15 v1.0.1         | 15        | 7    | 2       | 6    | 64    |
+| HermesAgent-20 v1.0.0     | 20        | 4    | 2       | 14   | 53    |
+| PromptAuthority-15 v1.0.0 | 40        | 7    | 0       | 8    | 47    |
+| CLI-40 v1.0.2             | 40        | 3    | 0       | 37   | 24    |
 
-### Agentic-score: 539
+### Agentic-score: 588
